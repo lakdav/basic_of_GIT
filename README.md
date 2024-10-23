@@ -50,3 +50,18 @@ $ git commit -m "...."
 # 4
 $ git status
 ```
+
+## Настройка автора коммита(фиксации)
+
+```bash
+# 1
+$ git config --global user.name "..."
+$ git config --global user.email "..."
+# 2
+```
+
+```bash
+# Вы также можете сообщить Git свое имя и свой e-mail, установив перемен­ные окружения
+$ export GIТ_AUTHOR_NAME=...
+$ export GIТ_AUTHOR_EMAIL=...
+```
