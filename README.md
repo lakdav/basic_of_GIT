@@ -35,3 +35,18 @@ $ echo "hello git" > index.html
 # 4
 $ git init
 ```
+
+## Добавление файлов в ваш репозитарий
+
+```bash
+# 1
+$ git add index.html
+# Чтоби добавить в репозитарий все фаайлы в каталоге о во всех подкаталогах
+$ git add .
+# 2
+$ git status
+# 3
+$ git commit -m "...."
+# 4
+$ git status
+```
