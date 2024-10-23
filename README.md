@@ -22,3 +22,16 @@ $ make all doc
 $ make install
 $ sudo make install install-doc
 ```
+
+## Создание начального репозитария
+
+```bash
+# 1
+$ mkdir ~/public_html
+# 2
+$ cd ~/public_html
+# 3
+$ echo "hello git" > index.html
+# 4
+$ git init
+```
