@@ -4,4 +4,6 @@
 
 ```bash
 $ git log
+# найти всю историю фаила
+$ git log --follow index.js
 ```
